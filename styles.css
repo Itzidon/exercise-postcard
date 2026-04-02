@@ -1,5 +1,10 @@
 body {
 	background: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	font-family: "Handlee", cursive;
 }
 
 * {
@@ -11,6 +16,10 @@ body {
 	width: 400px;
 	height: 300px;
 	margin: auto;
+	padding: 20px;
+	.postcard {
+		padding: 20px;
+	}
 }
 
 /* HEADER */
@@ -41,12 +50,20 @@ body {
 .body-right {
 	padding: 10px;
 }
+.body-left {
+	width: 50%;
+}
+
+.body-right {
+	width: 50%;
+}
 
 input {
 	border: none;
-	border-bottom: 1px solid grey;
+	border-bottom: 1px solid #999;
 	display: block;
 	margin-bottom: 10px;
+	width: 90%;
 }
 
 /* FOOTER */
@@ -55,8 +72,24 @@ input {
 }
 
 button {
-	background-color: #444;
+	background-color: #555;
 	color: white;
-	padding: 8px 15px;
+	padding: 10px 20px;
 	border: none;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #333;
+}
+.postcard-header {
+	margin-bottom: 10px;
+}
+
+.body-right {
+	padding-top: 5px;
+}
+.postcard {
+	border-radius: 10px;
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
