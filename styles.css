@@ -17,10 +17,8 @@ body {
 	height: 300px;
 	margin: auto;
 	padding: 20px;
-	.postcard {
-		padding: 20px;
+	
 	}
-}
 
 /* HEADER */
 .postcard-header {
